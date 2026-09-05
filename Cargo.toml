@@ -1,5 +1,5 @@
 [package]
-name = "Eye-Control-System-Rust"
+name = "eye-control-system-rust"
 version = "0.1.0"
 edition = "2024"
 
