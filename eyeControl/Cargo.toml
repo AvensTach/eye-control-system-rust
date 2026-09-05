@@ -1,0 +1,22 @@
+[package]
+name = "eyeControl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+enigo = "0.2"
+reqwest = { version = "0.11", features = ["blocking"] }
+pyo3 = { version = "0.28.3", features = ["auto-initialize"] }
+
+[dependencies.opencv]
+version = "0.91"
+default-features = false
+features = [
+    "calib3d",
+    "features2d",
+    "highgui",
+    "imgcodecs",
+    "imgproc",
+    "videoio",
+    "objdetect"
+]
